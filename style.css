@@ -86,3 +86,54 @@ nav h1:hover{
     opacity: 1;
     /* background-color: red; */
 }
+
+
+@media(max-width : 600px){
+
+nav{
+    font-size: 8px;
+    /* padding-right: 30px; */
+    gap: 20px;
+}
+
+#lightly{
+    padding: 20px;
+    font-size: 16px;
+}
+#Exclusive{
+    /* padding-right: 40px; */
+    padding-left: 20px;
+    font-size: 10px;
+}
+#banner{
+    height: 40%;
+}
+
+#right h1{
+    font-size: 10px;
+    margin: 0px;
+    border-top: 1px solid black;
+    padding-top: 0px;
+    /* background-color: red; */
+}
+#right h1:hover{
+    text-decoration: underline;
+}
+#right .elem{
+    display: flex;
+    font-size: 5px;
+    margin: 0px;
+    border-top: 0px solid black;
+    padding-top: 0px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#right i{
+    opacity: 0;
+}
+#right .elem:hover i{
+    opacity: 1;
+    /* background-color: red; */
+}
+}
